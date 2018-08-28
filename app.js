@@ -1,13 +1,3 @@
-
-
-
-
-
-
-
-
-
-
 var btn = document.querySelector("#btn");
 var url = 'https://randomuser.me/api/';
 var fullNameDisp = document.querySelector("#fullname");
@@ -15,8 +5,6 @@ var imageDisp = document.querySelector("#avatar");
 var usernameDisp = document.querySelector("#username");
 var emailDisp = document.querySelector("#email");
 var cityDisp = document.querySelector("#city");
-
-
 
 btn.addEventListener("click", function(){
   fetch(url)
